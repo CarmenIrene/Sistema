@@ -1,0 +1,449 @@
+.container{
+	width: 50%;
+}
+
+
+.texto-modal{
+	color: red;
+	text-align: center;
+	font-size: 15px;
+}
+.encabezado{
+	text-align: center;
+}
+.menu{
+	width: 78%;
+	height: 39px;
+	background-image: url('/fondoMenu.png');
+	background-position: center;
+	position: relative;
+	left: 122px;
+
+	
+}
+
+.menuitem{
+	list-style: none;
+	padding-top: 5px;
+	width: 135px;
+}
+.menuitem a{
+	color: white;
+	font-size: 13px;
+}
+.menuitem a:hover{
+	color: white;
+	text-decoration: underline;
+}
+.submenu
+{
+	overflow:hidden;
+	position:relative;
+	top: 9px;
+	height: 210px;
+	width: 190px;
+	background-image: url('/fondoMenu.png');
+	visibility:hidden;
+	z-index: 1;
+}
+.submenu li{
+	list-style: none;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:17px;
+	padding-bottom:5px;
+}
+.submenu li a{
+	display:block;
+	color:white;
+	font-family:Tahoma;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+}
+.menuitem:hover .submenu{
+	visibility: visible;
+}
+
+#carouselIngenieria{
+	padding-top: 20px;
+	width: 870px;
+	left: 121px;
+}
+.secretaria{
+	background-color: rgb(0,0,102);
+	position: relative;
+	bottom: 36px;
+	width: 78%;
+	text-align: center;
+	color: white;
+	left: 122px;
+}
+.piePagina{
+	text-align: center;
+	font-size: 11px;
+	position: relative;
+	bottom: 35px;
+}
+.imagen{
+	position: relative;
+	top: 90px;
+	left: 200px;
+}
+.datos{
+	position: relative;
+	left: 600px;
+	bottom: 160px;
+}
+.datos p{
+	font-size: 13px;
+	position: relative;
+	right: 30px;
+	top: 25px;
+}
+.texto{
+	text-align: center;
+	position: relative;
+	bottom: 25px;
+}
+.pagina{
+	text-align: center;
+	position: relative;
+	bottom: 15px;	
+	color: rgb(0,153,102);
+}
+
+/*MenuAlumno*/
+/*div datosGenerales*/
+.submenuRegistro
+{
+	overflow:hidden;
+	position:relative;
+	top: 3px;
+	right:10px;
+	height: 28px;
+	width: 173px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	visibility:hidden;
+	z-index: 1;
+}
+.submenuRegistro li{
+	list-style: none;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:7px;
+	padding-bottom:5px;
+}
+.submenuRegistro li a{
+	display:block;
+	color:white;
+	font-family:Tahoma;
+	font-size:12px;
+	text-align:left;
+	text-decoration:none;
+}
+.menuitem:hover .submenuRegistro{
+	visibility: visible;
+}
+
+/*estilos para llenarSolicitud*/
+.Alumno
+{
+	width: 100%;/*ancho*/ 
+	height:230px;/*altura*/
+	border-color: rgb(53,75,146);
+	background-color: rgb(198,217,241);
+
+}
+.row
+{
+		background-color: rgb(198,217,241);
+}
+.titulo{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:28px;/*altura*/
+	width: 100%;/*ancho*/
+}
+ .tituloDatosAlumno 
+{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	background-color:rgb(0,102,204); /*color azul mas claro*/
+	height:28px;/*altura*/
+	width: 100%;/*ancho*/
+	align-self: center;
+	
+
+}
+.hora
+{
+	font-size: 15px;
+	color: black ;
+	font-family: tahoma;
+	height:30px;/*altura*/
+	top:20px;
+	left:40px;
+	
+}
+
+.horainput
+{
+	left:30px;
+	top:6px;
+	background-color: rgb(198,217,241);
+}
+.fecha1
+{
+	font-size: 15px;
+	color: black ;
+	font-family: tahoma;
+	height:30px;/*altura*/
+	top:18px;
+	left:85px;
+}
+.fecha2
+{
+	font-size: 15px;
+	color: black ;
+	font-family: tahoma;
+	height:30px;/*altura*/
+	top:18px;
+	left:29px;
+}
+.fechainput1
+{
+	left:65px;
+	top:10px;
+	background-color: rgb(198,217,241);
+}
+.fechainput2
+{
+	left:0px;
+	top:10px;
+	background-color: rgb(198,217,241);
+}
+.colum1
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:15px;
+
+}
+
+.colum11
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:35px;
+
+}
+
+.col-5 
+{
+	left:20px;
+	top:4px;
+	background-color: rgb(198,217,241);
+}
+
+.actividades
+{
+	top:18px;
+	left:20px;
+}
+/*Datos fde la empresa*/
+ .tituloDatosEmpresa 
+{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	background-color:rgb(0,102,204); /*color azul mas claro*/
+	height:28px;/*altura*/
+	width: 100%;/*ancho*/
+	align-self: center;
+}
+.Empresa
+{
+	width: 100%;/*ancho*/ 
+	height:300px;/*altura*/
+	border-color: rgb(53,75,146);
+	background-color: rgb(198,217,241);
+
+}
+
+.parrafoAltaEmpresa
+{
+	height:28px;/*altura*/
+	width: 100%;/*ancho*/
+	background-color: rgb(198,217,241);
+	color:red;
+	font-family: arial narrow;
+	font-size: 15px;
+}
+
+.inputNombreEm
+{
+	left:15px;
+	top:40px;
+	background-color: rgb(198,217,241);
+}
+
+.colum111
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:45px;
+
+}
+
+.colum2
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:55px;
+
+}
+
+.columRamo
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:65px;
+
+}
+
+.seleccionarEmpresa
+{
+	left:15px;
+	top:50px;
+	background-color: rgb(198,217,241);
+}
+
+.inputRamo
+{
+	left:15px;
+	top:60px;
+	background-color: rgb(198,217,241);
+}
+
+.inputTel
+{
+	left:15px;
+	top:70px;
+	background-color: rgb(198,217,241);
+}
+
+.columTel
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:75px;
+
+}
+
+/**datos del asesor externo*/
+ .tituloDatosAsesor 
+{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	background-color:rgb(0,102,204); /*color azul mas claro*/
+	height:28px;/*altura*/
+	width: 100%;/*ancho*/
+	align-self: center;
+}
+
+.Asesor
+{
+	width: 100%;/*ancho*/ 
+	height:300px;/*altura*/
+	border-color: rgb(53,75,146);
+	background-color: rgb(198,217,241);
+}
+
+.columNomAs
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:35px;
+
+}
+
+
+.inputRamo
+{
+	left:15px;
+	top:60px;
+	background-color: rgb(198,217,241);
+}
+
+.columNomAs
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:35px;
+
+}
+
+
+.inputNomAs
+{
+	left:25px;
+	top:30px;
+	background-color: rgb(198,217,241);
+}
+
+.columCargoAs
+{
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	background-color:rgb(53,73,146); /*color azul marino*/
+	height:30px;/*altura*/
+	left:20px;
+	top:45px;
+
+}
+
+.inputCargoAs
+{
+	left:25px;
+	top:40px;
+	background-color: rgb(198,217,241);
+}
+
