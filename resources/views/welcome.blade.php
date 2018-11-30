@@ -14,7 +14,7 @@
     </head>
     <body>
         <div>
-            <a href="/index">Index</a>
+            <a href="/inicioSesion">Inicio Sesion</a>
             </div>
         </div>
     </body>

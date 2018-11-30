@@ -1,7 +1,7 @@
 .container{
 	width: 50%;
+	
 }
-
 
 .texto-modal{
 	color: red;
@@ -10,22 +10,23 @@
 }
 .encabezado{
 	text-align: center;
+
+
 }
 .menu{
-	width: 78%;
 	height: 39px;
-	background-image: url('/fondoMenu.png');
+	/*background-image: url('/fondoMenu.png');*/
 	background-position: center;
 	position: relative;
 	left: 122px;
-
-	
+	background-color: rgb(26,50,86);	
 }
 
 .menuitem{
 	list-style: none;
 	padding-top: 5px;
 	width: 135px;
+	float: left;
 }
 .menuitem a{
 	color: white;
@@ -42,7 +43,8 @@
 	top: 9px;
 	height: 210px;
 	width: 190px;
-	background-image: url('/fondoMenu.png');
+	/*background-image: url('/fondoMenu.png');*/
+	background-color: rgb(36,50,86);
 	visibility:hidden;
 	z-index: 1;
 }
@@ -52,6 +54,7 @@
 	padding-right:5px;
 	padding-top:17px;
 	padding-bottom:5px;
+	background-color: rgb(36,50,86);
 }
 .submenu li a{
 	display:block;
@@ -60,24 +63,21 @@
 	font-size:12px;
 	text-align:left;
 	text-decoration:none;
+	background-color: rgb(36,50,86);
 }
 .menuitem:hover .submenu{
 	visibility: visible;
+	background-color: rgb(36,50,86);
 }
 
 #carouselIngenieria{
 	padding-top: 20px;
 	width: 870px;
-	left: 121px;
+	
 }
-.secretaria{
-	background-color: rgb(0,0,102);
-	position: relative;
-	bottom: 36px;
-	width: 78%;
-	text-align: center;
-	color: white;
-	left: 122px;
+.secretaria p
+{
+	background-color: white;
 }
 .piePagina{
 	text-align: center;
@@ -150,7 +150,7 @@
 .Alumno
 {
 	width: 100%;/*ancho*/ 
-	height:230px;/*altura*/
+	height:280px;/*altura*/
 	border-color: rgb(53,75,146);
 	background-color: rgb(198,217,241);
 
@@ -163,18 +163,19 @@
 	color: white;
 	text-align: center;
 	font-size: 20px;
-	background-color:rgb(53,73,146); /*color azul marino*/
+	
 	height:28px;/*altura*/
-	width: 100%;/*ancho*/
+
+	
 }
  .tituloDatosAlumno 
 {
 	color: white;
 	text-align: center;
 	font-size: 18px;
-	background-color:rgb(0,102,204); /*color azul mas claro*/
+	background-color:rgb(59,64,104);
 	height:28px;/*altura*/
-	width: 100%;/*ancho*/
+	width: 78%;/*ancho*/
 	align-self: center;
 	
 
@@ -184,15 +185,15 @@
 	font-size: 15px;
 	color: black ;
 	font-family: tahoma;
-	height:30px;/*altura*/
-	top:20px;
-	left:40px;
+	height:32px;/*altura*/
+	/*top:10px;*/
+	/*left:40px;*/
 	
 }
 
 .horainput
 {
-	left:30px;
+	/*left:30px;*/
 	top:6px;
 	background-color: rgb(198,217,241);
 }
@@ -203,7 +204,7 @@
 	font-family: tahoma;
 	height:30px;/*altura*/
 	top:18px;
-	left:85px;
+/*	left:85px;*/
 }
 .fecha2
 {
@@ -212,7 +213,7 @@
 	font-family: tahoma;
 	height:30px;/*altura*/
 	top:18px;
-	left:29px;
+	/*left:29px;*/
 }
 .fechainput1
 {
@@ -232,10 +233,10 @@
 	text-align: center;
 	font-size: 15px;
 	background-color:rgb(53,73,146); /*color azul marino*/
-	height:30px;/*altura*/
 	left:20px;
 	top:15px;
-
+	width: 8%;
+	
 }
 
 .colum11
@@ -244,8 +245,7 @@
 	text-align: center;
 	font-size: 15px;
 	background-color:rgb(53,73,146); /*color azul marino*/
-	height:30px;/*altura*/
-	left:20px;
+	/*height:50px;/*altura*/
 	top:35px;
 
 }
@@ -268,7 +268,7 @@
 	color: white;
 	text-align: center;
 	font-size: 18px;
-	background-color:rgb(0,102,204); /*color azul mas claro*/
+	background-color:rgb(59,64,104);
 	height:28px;/*altura*/
 	width: 100%;/*ancho*/
 	align-self: center;
@@ -276,7 +276,7 @@
 .Empresa
 {
 	width: 100%;/*ancho*/ 
-	height:300px;/*altura*/
+	/*height:500px;/*altura*/
 	border-color: rgb(53,75,146);
 	background-color: rgb(198,217,241);
 
@@ -288,14 +288,14 @@
 	width: 100%;/*ancho*/
 	background-color: rgb(198,217,241);
 	color:red;
-	font-family: arial narrow;
-	font-size: 15px;
+	font-family:arial narrow;
+	
 }
 
 .inputNombreEm
 {
-	left:15px;
-	top:40px;
+	left:36px;
+	/*top:40px;*/
 	background-color: rgb(198,217,241);
 }
 
@@ -337,21 +337,21 @@
 
 .seleccionarEmpresa
 {
-	left:15px;
+	left:35px;
 	top:50px;
 	background-color: rgb(198,217,241);
 }
 
 .inputRamo
 {
-	left:15px;
+	
 	top:60px;
 	background-color: rgb(198,217,241);
 }
 
 .inputTel
 {
-	left:15px;
+	left:34px;
 	top:70px;
 	background-color: rgb(198,217,241);
 }
@@ -374,7 +374,7 @@
 	color: white;
 	text-align: center;
 	font-size: 18px;
-	background-color:rgb(0,102,204); /*color azul mas claro*/
+background-color:rgb(59,64,104);
 	height:28px;/*altura*/
 	width: 100%;/*ancho*/
 	align-self: center;
@@ -447,3 +447,17 @@
 	background-color: rgb(198,217,241);
 }
 
+/*foto y datos geerales*/
+
+.foto img
+{
+	width: 30%;/*ancho*/
+	height: 300px;/*alto*/
+	position: relative;
+	border-color: red;
+	left:300px;
+}
+
+/****form guarda solicitud alumno*****/
+
+/****SUBIR REPORTES AL SISTEMA*****/
